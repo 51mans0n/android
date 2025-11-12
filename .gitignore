@@ -1,0 +1,15 @@
+# Gradle / Build
+.gradle/
+**/build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Captures / caches
+captures/
+.externalNativeBuild/
+
+# Misc
+.DS_Store

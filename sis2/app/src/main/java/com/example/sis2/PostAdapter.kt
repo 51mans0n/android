@@ -26,12 +26,7 @@ class PostAdapter(
     }
 
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VH {
-        val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.item_post, parent, false)
-        return VH(view, onLikeClick)
-    }
-
+    
 
     override fun onBindViewHolder(holder: VH, position: Int) {
         holder.bind(getItem(position))
